@@ -27,7 +27,7 @@
 int main(){
     int sd = socket(AF_INET, SOCK_RAW, IPPROTO_UDP);
     int sd2 = socket(AF_INET6, SOCK_STREAM, 0);
-    std::cout<<sd<<endl;
-    std::cout<<sd2<<endl;
+    std::cout<<sd<<std::endl;
+    std::cout<<sd2<<std::endl;
     return 0;
 }
